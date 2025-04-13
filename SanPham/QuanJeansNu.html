@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Griffy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Jquey -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sản phẩm</title>
+  </head>
+  <body>
+    <header>
+      <section class="navbar">
+        <nav class="navbar-content">
+          <div class="nav-brand">
+            <a href="#"><p>BUBEE</p></a>
+          </div>
+          <div class="nav-list">
+            <ul>
+              <li>
+                <a href="../TrangChu/index.html"
+                  ><i class="bx bx-home-heart"></i> Trang chủ</a
+                >
+              </li>
+              <li>
+                <a href="../GioiThieu/index.html"
+                  ><i class="bx bxs-pencil"></i> Giới thiệu</a
+                >
+              </li>
+              <li>
+                <a href="./index.html"
+                  ><i class="bx bxs-shopping-bag"></i> Sản Phẩm</a
+                >
+              </li>
+              <li>
+                <a href="../HoTro/index.html"
+                  ><i class="bx bxs-phone-call"></i> Hỗ trợ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="bx bx-menu" id="menu-icon"></div>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <aside>
+        <section class="side-bar">
+          <div class="side-bar-content">
+            <div class="side-bar-content-item">
+              <div class="search-group">
+                <div id="search" class="search">
+                  <input
+                    class="input"
+                    type="text"
+                    name="search"
+                    placeholder="Tìm kiếm..."
+                  />
+                  <button id="btn" class="btn">
+                    <i class="bx bx-search"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="side-bar-content-item">
+              <a href="./index.html">Tất cả</a>
+            </div>
+
+            <div class="side-bar-content-item">
+              <details>
+                <summary>Áo nữ</summary>
+                <div class="menu">
+                  <a href="./AoThunNu.html">Áo thun nữ</a>
+                  <a href="./AoSoMiNu.html">Áo sơ mi nữ</a>
+                  <a href="./AoKieuNu.html">Áo kiểu nữ</a>
+                </div>
+              </details>
+            </div>
+
+            <div class="side-bar-content-item">
+              <details>
+                <summary>Quần nữ</summary>
+                <div class="menu">
+                  <a href="./QuanDaiNu.html">Quần dài nữ</a>
+                  <a href="./QuanJeansNu.html">Quần jeans nữ</a>
+                  <a href="./QuanNganNu.html">Quần ngắn nữ</a>
+                </div>
+              </details>
+            </div>
+
+            <div class="side-bar-content-item">
+              <details>
+                <summary>Phụ kiện nữ</summary>
+                <div class="menu">
+                  <a href="./Tui.html">Túi</a>
+                  <a href="./Kinh.html">Kính</a>
+                  <a href="./Khan.html">Khăn</a>
+                  <a href="./Tat.html">Tất</a>
+                  <a href="./Giay.html">Giày</a>
+                </div>
+              </details>
+            </div>
+
+            <div class="side-bar-content-item">
+              <details>
+                <summary>Đầm nữ</summary>
+                <div class="menu">
+                  <a href="./DamNgan.html">Đầm ngắn</a>
+                  <a href="./DamDai.html">Đầm dài</a>
+                </div>
+              </details>
+            </div>
+
+            <div class="side-bar-content-item">
+              <details>
+                <summary>Jumpsuit</summary>
+                <div class="menu">
+                  <a href="./JumpsuitNgan.html">Jumbsuit ngắn</a>
+                  <a href="./JumpsuitDai.html">Jumbsuit dài</a>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section class="watch-more">
+          <p>Xem thêm nhiều mặt hàng &gt;&gt;</p>
+        </section>
+      </aside>
+      <section class="container">
+        <div class="detail">
+          <h1>Hàng quần jeans nữ</h1>
+          <div class="box">
+            <div class="card">
+              <img src="./QuanJeans/1.jpg" alt="Sản phẩm 1" height="100" />
+              <div class="card-body">
+                <p class="description">Quần jean xanh</p>
+                <p class="price">600.000₫</p>
+              </div>
+              <button class="order">
+                <a href="../DatHang/index.html?id=65">Đặt hàng!</a>
+              </button>
+            </div>
+            <div class="card">
+              <img src="./QuanJeans/2.jpg" alt="Sản phẩm 2" height="100" />
+              <div class="card-body">
+                <p class="description">Quần jean ống rộng</p>
+                <p class="price">720.000₫</p>
+              </div>
+              <button class="order">
+                <a href="../DatHang/index.html?id=66">Đặt hàng!</a>
+              </button>
+            </div>
+            <div class="card">
+              <img src="./QuanJeans/3.jpg" alt="Sản phẩm 3" height="100" />
+              <div class="card-body">
+                <p class="description">Quần jean ngắn</p>
+                <p class="price">400.000₫</p>
+              </div>
+              <button class="order">
+                <a href="../DatHang/index.html?id=67">Đặt hàng!</a>
+              </button>
+            </div>
+            <div class="card">
+              <img src="./QuanJeans/4.jpg" alt="Sản phẩm 4" height="100" />
+              <div class="card-body">
+                <p class="description">Quần jean rách gối</p>
+                <p class="price">670.000₫</p>
+              </div>
+              <button class="order">
+                <a href="../DatHang/index.html?id=68">Đặt hàng!</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

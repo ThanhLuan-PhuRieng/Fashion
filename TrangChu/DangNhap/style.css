@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* --------------------------------------- Main ----------------------------------- */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.scene {
+  width: 500px;
+  height: 500px;
+  perspective: 1000px;
+}
+.cube {
+  width: 100%;
+  height: 100%;
+}
+.cube-face {
+  width: 500px;
+  height: 500px;
+  border: 1px solid rgba(221, 47, 47, 0.719);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+.title {
+  text-align: center;
+  font-family: "Are You Serious", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+.group-contact {
+  width: 80%;
+}
+.group-contact form {
+  display: grid;
+}
+.group-contact form input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0 18px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 12px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  resize: vertical;
+}
+.group-contact form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+.group-contact form div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.group-contact form div a {
+  color: #080808;
+  transition: all 0.4s;
+}
+.group-contact form div a:hover {
+  transform: scale(1.1);
+}
+.group-contact form button {
+  width: 20%;
+  padding: 8px;
+  background-color: #ffe600;
+  border: none;
+  color: #8c6e63;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.group-contact form button:hover {
+  background-color: #b3a700;
+}
+@media screen and (max-width: 1440px) {
+  .scene {
+    width: 350px;
+    height: 350px;
+  }
+  .cube-face {
+    width: 350px;
+    height: 350px;
+  }
+  .title {
+    font-size: 1.7rem;
+  }
+  .group-contact p {
+    font-size: 0.8rem;
+  }
+  .group-contact form input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0 10px 0;
+  }
+  .group-contact form button {
+    width: 20%;
+    padding: 4px;
+    background-color: #ffe600;
+    font-size: 14px;
+  }
+  .control summary {
+    font-size: 1.3rem;
+  }
+  .control button {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .nav-list ul {
+    width: 45vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .scene {
+    width: 300px;
+    height: 300px;
+  }
+  .cube-face {
+    width: 300px;
+    height: 300px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .group-contact p {
+    font-size: 0.5rem;
+  }
+  .group-contact form input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0 10px 0;
+  }
+  .group-contact form button {
+    width: 20%;
+    padding: 4px;
+    background-color: #ffe600;
+    font-size: 14px;
+  }
+  .control summary {
+    font-size: 1rem;
+  }
+  .control button {
+    font-size: 1rem;
+  }
+}
